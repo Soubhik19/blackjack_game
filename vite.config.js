@@ -1,8 +1,8 @@
-import {defineConfig} from "vite"
+import { defineConfig } from 'vite';
 
-export default defineConfig({
-	base: "./",
-	plugins: [
-		
-	]
-})
+export default defineConfig(({ command }) => {
+  return {
+    base: command === 'build' ? './' : '/',
+    plugins: []
+  };
+});
