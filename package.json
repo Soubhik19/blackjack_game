@@ -1,0 +1,14 @@
+{
+  "name": "blackjack-game",
+  "description": "A simple Blackjack game built with HTML, CSS, and JavaScript using Vite. Created as part of Scrimba's Frontend Path.",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
